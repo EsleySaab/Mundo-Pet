@@ -3,7 +3,7 @@
 }
 
 .title {
-  margin-right: 5rem;
+  margin-right: 7rem;
   & h3 {
     color: white;
     font-family: "Inter Tight", sans-serif;
@@ -22,7 +22,7 @@
 }
 
 .date {
-  margin-left: 5rem;
+  margin-left: 3.5rem;
   margin-top: 1rem;
 }
 
@@ -53,11 +53,13 @@ input[type="date"] {
   flex-direction: column;
   background-color: #23242c;
   border-radius: 0.5rem;
-  padding: 2rem;
-  margin: 15rem;
+  padding: 0.8rem;
   font-family: Arial, sans-serif;
   color: #333;
   margin-top: 1rem;
+  width: 68%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .appointment-time {
@@ -65,6 +67,8 @@ input[type="date"] {
   align-items: center;
   font-weight: bold;
   margin-bottom: 2rem;
+  border-bottom: 1px solid #353339;
+  padding-bottom: 0.5rem;
 
   & .time-range {
     margin-left: 0.5rem;
@@ -83,7 +87,7 @@ input[type="date"] {
 }
 
 .appointment-time .period {
-  font-size: 14px;
+  font-size: 16px;
   color: white;
 }
 
@@ -92,9 +96,17 @@ input[type="date"] {
   color: #98959d;
 }
 
-.appointment-time .exact-time {
+.appointment-time .time-range {
+  margin-left: auto;
+}
+
+.appointment-details .exact-time {
   font-size: 14px;
+  font-weight: bold;
+  line-height: 24px;
   color: white;
+  margin-bottom: 1rem;
+  margin-left: 1rem;
 }
 
 .appointment-details {
@@ -107,6 +119,7 @@ input[type="date"] {
   font-size: 16px;
   font-weight: bold;
   color: white;
+  margin-right: 12rem;
 
   & span {
     font-size: 12px;
@@ -117,7 +130,7 @@ input[type="date"] {
 .appointment-details .description {
   font-size: 14px;
   color: #98959d;
-  margin-right: 10rem;
+  margin-right: 15rem;
 }
 
 .remove-btn {
@@ -127,4 +140,8 @@ input[type="date"] {
   & img {
     width: 2rem;
   }
+}
+
+.remove-btn:hover {
+  transform: scale(1.3);
 }

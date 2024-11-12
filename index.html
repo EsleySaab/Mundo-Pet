@@ -38,29 +38,33 @@
         </div>
       </div>
 
-      <div class="appointment-card">
-        <div class="appointment-time">
-          <img
-            src="./assets/Sun-Fog--Streamline-Solar.svg"
-            class="icon"
-            alt=""
-          />
-          <span class="period">Manhã</span>
-          <span class="time-range">09h-12h</span>
-          <span class="exact-time">09:00</span>
-        </div>
-
-        <div class="appointment-details d-flex">
-          <p class="person">Thor / <span>Fernanda Costa</span></p>
-          <p class="description">Vacinação</p>
-          <button class="remove-btn">
+      <ul class="appointment-list">
+        <li class="appointment-card">
+          <div class="appointment-time">
             <img
-              src="/assets/Close-Small-Fill--Streamline-Rounded-Fill---Material-Symbols.svg"
-              alt=""
+              src="./assets/Sun-Fog--Streamline-Solar.svg"
+              class="icon"
+              alt="Ícone"
             />
-          </button>
-        </div>
-      </div>
+            <span class="period">Manhã</span>
+            <span class="time-range">09h-12h</span>
+          </div>
+
+          <div class="appointment-details d-flex">
+            <span class="exact-time">09:00</span>
+            <p class="person">Thor / <span>Fernanda Costa</span></p>
+            <p class="description">Vacinação</p>
+            <button class="remove-btn">
+              <img
+                src="/assets/Close-Small-Fill--Streamline-Rounded-Fill---Material-Symbols.svg"
+                alt="Remover"
+              />
+            </button>
+          </div>
+        </li>
+
+        <!-- Mais itens de agendamento (li) podem ser adicionados aqui -->
+      </ul>
     </div>
   </body>
 </html>
