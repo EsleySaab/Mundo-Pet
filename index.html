@@ -38,33 +38,119 @@
         </div>
       </div>
 
-      <ul class="appointment-list">
-        <li class="appointment-card">
-          <div class="appointment-time">
-            <img
-              src="./assets/Sun-Fog--Streamline-Solar.svg"
-              class="icon"
-              alt="Ícone"
-            />
-            <span class="period">Manhã</span>
-            <span class="time-range">09h-12h</span>
-          </div>
+      <div class="appointment-container" id="morning">
+        <!-- Cabeçalho fixo -->
+        <div class="appointment-time">
+          <img
+            src="./assets/Sun-Fog--Streamline-Solar.svg"
+            class="icon"
+            alt="Ícone"
+          />
+          <span class="period">Manhã</span>
+          <span class="time-range">09h-12h</span>
+        </div>
 
-          <div class="appointment-details d-flex">
+        <!-- Lista de detalhes de agendamento -->
+        <ul class="appointment-list">
+          <li class="appointment-details d-flex">
             <span class="exact-time">09:00</span>
-            <p class="person">Thor / <span>Fernanda Costa</span></p>
+            <p class="pet">
+              Draven / <span class="owner">Evaristo Teixeira</span>
+            </p>
             <p class="description">Vacinação</p>
             <button class="remove-btn">
-              <img
-                src="/assets/Close-Small-Fill--Streamline-Rounded-Fill---Material-Symbols.svg"
-                alt="Remover"
-              />
+              <span>Remover agendamento</span>
             </button>
-          </div>
-        </li>
+          </li>
 
-        <!-- Mais itens de agendamento (li) podem ser adicionados aqui -->
-      </ul>
+          <!-- Exemplo de outro agendamento -->
+          <li class="appointment-details d-flex">
+            <span class="exact-time">10:00</span>
+            <p class="pet">Pituca / <span class="owner">Paulo Everton</span></p>
+            <p class="description">Vacinação</p>
+            <button class="remove-btn">
+              <span>Remover agendamento</span>
+            </button>
+          </li>
+          <!-- Adicione mais itens conforme necessário -->
+        </ul>
+      </div>
+
+      <div class="appointment-container" id="afternoon">
+        <!-- Cabeçalho fixo -->
+        <div class="appointment-time">
+          <img
+            src="./assets/Cloud-Sun-4--Streamline-Solar.svg"
+            class="icon"
+            alt="Ícone"
+          />
+          <span class="period">Tarde</span>
+          <span class="time-range">13h-18h</span>
+        </div>
+
+        <!-- Lista de detalhes de agendamento -->
+        <ul class="appointment-list">
+          <li class="appointment-details d-flex">
+            <span class="exact-time">13:00</span>
+            <p class="pet">
+              Draven / <span class="owner">Evaristo Teixeira</span>
+            </p>
+            <p class="description">Vacinação</p>
+            <button class="remove-btn">
+              <span>Remover agendamento</span>
+            </button>
+          </li>
+
+          <!-- Exemplo de outro agendamento -->
+          <li class="appointment-details d-flex">
+            <span class="exact-time">14:00</span>
+            <p class="pet">Pituca / <span class="owner">Paulo Everton</span></p>
+            <p class="description">Vacinação</p>
+            <button class="remove-btn">
+              <span>Remover agendamento</span>
+            </button>
+          </li>
+          <!-- Adicione mais itens conforme necessário -->
+        </ul>
+      </div>
+
+      <div class="appointment-container" id="night">
+        <!-- Cabeçalho fixo -->
+        <div class="appointment-time">
+          <img
+            src="./assets/Moon-Stars--Streamline-Solar.svg"
+            class="icon"
+            alt="Ícone"
+          />
+          <span class="period">Noite</span>
+          <span class="time-range">19h-21h</span>
+        </div>
+
+        <!-- Lista de detalhes de agendamento -->
+        <ul class="appointment-list">
+          <li class="appointment-details d-flex">
+            <span class="exact-time">19:00</span>
+            <p class="pet">
+              Draven / <span class="owner">Evaristo Teixeira</span>
+            </p>
+            <p class="description">Vacinação</p>
+            <button class="remove-btn">
+              <span>Remover agendamento</span>
+            </button>
+          </li>
+
+          <!-- Exemplo de outro agendamento -->
+          <li class="appointment-details d-flex">
+            <span class="exact-time">20:00</span>
+            <p class="pet">Pituca / <span class="owner">Paulo Everton</span></p>
+            <p class="description">Vacinação</p>
+            <button class="remove-btn">
+              <span>Remover agendamento</span>
+            </button>
+          </li>
+          <!-- Adicione mais itens conforme necessário -->
+        </ul>
+      </div>
     </div>
   </body>
 </html>
