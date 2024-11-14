@@ -10,6 +10,16 @@
 /******/ 	"use strict";
 /******/ 	var __webpack_modules__ = ({
 
+/***/ "./src/main.js":
+/*!*********************!*\
+  !*** ./src/main.js ***!
+  \*********************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/global.css */ \"./src/styles/global.css\");\n/* harmony import */ var _styles_header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/header.css */ \"./src/styles/header.css\");\n/* harmony import */ var _styles_modal_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/modal.css */ \"./src/styles/modal.css\");\n/* harmony import */ var _styles_schedules_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/schedules.css */ \"./src/styles/schedules.css\");\n\n\n// CSS\n\n\n\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  var modal = document.getElementById(\"myModal\");\n  var button = document.getElementById(\"modal-button\");\n  var closeButton = document.getElementsByClassName(\"close\")[0];\n  button.onclick = function () {\n    modal.style.display = \"flex\";\n  };\n  closeButton.onclick = function () {\n    modal.style.display = \"none\";\n  };\n});\n\n//# sourceURL=webpack://mundopet/./src/main.js?");
+
+/***/ }),
+
 /***/ "./node_modules/css-loader/dist/cjs.js!./src/styles/global.css":
 /*!*********************************************************************!*\
   !*** ./node_modules/css-loader/dist/cjs.js!./src/styles/global.css ***!
@@ -177,16 +187,6 @@ eval("\n\n/* istanbul ignore next  */\nfunction apply(styleElement, options, obj
 /***/ ((module) => {
 
 eval("\n\n/* istanbul ignore next  */\nfunction styleTagTransform(css, styleElement) {\n  if (styleElement.styleSheet) {\n    styleElement.styleSheet.cssText = css;\n  } else {\n    while (styleElement.firstChild) {\n      styleElement.removeChild(styleElement.firstChild);\n    }\n    styleElement.appendChild(document.createTextNode(css));\n  }\n}\nmodule.exports = styleTagTransform;\n\n//# sourceURL=webpack://mundopet/./node_modules/style-loader/dist/runtime/styleTagTransform.js?");
-
-/***/ }),
-
-/***/ "./src/main.js":
-/*!*********************!*\
-  !*** ./src/main.js ***!
-  \*********************/
-/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
-
-eval("__webpack_require__.r(__webpack_exports__);\n/* harmony import */ var _styles_global_css__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./styles/global.css */ \"./src/styles/global.css\");\n/* harmony import */ var _styles_header_css__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./styles/header.css */ \"./src/styles/header.css\");\n/* harmony import */ var _styles_modal_css__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./styles/modal.css */ \"./src/styles/modal.css\");\n/* harmony import */ var _styles_schedules_css__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./styles/schedules.css */ \"./src/styles/schedules.css\");\n\n\n// CSS\n;\n\n\n\n\ndocument.addEventListener(\"DOMContentLoaded\", function () {\n  const modal = document.getElementById(\"myModal\")\n  const button = document.getElementById(\"modal-button\")\n  const closeButton = document.getElementsByClassName(\"close\")[0]\n\n  button.onclick = function () {\n    modal.style.display = \"flex\"\n  }\n\n  closeButton.onclick = function () {\n    modal.style.display = \"none\"\n  }\n})\n\n\n//# sourceURL=webpack://mundopet/./src/main.js?");
 
 /***/ }),
 
