@@ -26,130 +26,192 @@
     </header>
 
     <main>
-      <div class="d-flex schedules">
-        <div class="title">
-          <h3>Sua agenda</h3>
-          <p>
-            Aqui você pode ver todos os clientes e serviços agendados para hoje.
-          </p>
-        </div>
-        <div class="date">
-          <input type="date" />
-        </div>
-      </div>
-
-      <div class="appointment-container" id="morning">
-        <!-- Cabeçalho fixo -->
-        <div class="appointment-time">
-          <div class="d-flex">
-            <img
-              src="./assets/Sun-Fog--Streamline-Solar.svg"
-              class="icon"
-              alt="Ícone"
-            />
-            <span class="period">Manhã</span>
+      <div class="width">
+        <div class="d-flex schedules">
+          <div class="title">
+            <h3>Sua agenda</h3>
+            <p>
+              Aqui você pode ver todos os clientes e serviços agendados para
+              hoje.
+            </p>
           </div>
-          <span class="time-range">09h-12h</span>
-        </div>
-
-        <!-- Lista de detalhes de agendamento -->
-        <ul class="appointment-list">
-          <li class="appointment-details d-flex">
-            <div class="d-flex">
-              <span class="exact-time">09:00</span>
-              <p class="pet">
-                Draven / <span class="owner">Evaristo Teixeira</span>
-              </p>
-            </div>
-            <p class="description">Vacinação</p>
-            <button class="remove-btn">
-              <span>Remover agendamento</span>
-            </button>
-          </li>
-
-          <!-- Adicione mais itens conforme necessário -->
-        </ul>
-      </div>
-
-      <div class="appointment-container" id="afternoon">
-        <!-- Cabeçalho fixo -->
-        <div class="appointment-time">
-          <div class="d-flex">
-            <img
-              src="./assets/Cloud-Sun-4--Streamline-Solar.svg"
-              class="icon"
-              alt="Ícone"
-            />
-            <span class="period">Tarde</span>
+          <div class="date">
+            <input type="date" />
           </div>
-          <span class="time-range">13h-18h</span>
         </div>
 
-        <!-- Lista de detalhes de agendamento -->
-        <ul class="appointment-list">
-          <li class="appointment-details d-flex">
+        <div class="appointment-container" id="morning">
+          <!-- Cabeçalho fixo -->
+          <div class="appointment-time">
             <div class="d-flex">
-              <span class="exact-time">09:00</span>
-              <p class="pet">
-                Draven / <span class="owner">Evaristo Teixeira</span>
-              </p>
+              <img
+                src="./assets/Sun-Fog--Streamline-Solar.svg"
+                class="icon"
+                alt="Ícone"
+              />
+              <span class="period">Manhã</span>
             </div>
-            <p class="description">Vacinação</p>
-            <button class="remove-btn">
-              <span>Remover agendamento</span>
-            </button>
-          </li>
-
-          <li class="appointment-details d-flex">
-            <div class="d-flex">
-              <span class="exact-time">09:00</span>
-              <p class="pet">
-                Draven / <span class="owner">Evaristo Teixeira</span>
-              </p>
-            </div>
-            <p class="description">Vacinação</p>
-            <button class="remove-btn">
-              <span>Remover agendamento</span>
-            </button>
-          </li>
-
-          <!-- Adicione mais itens conforme necessário -->
-        </ul>
-      </div>
-
-      <div class="appointment-container" id="night">
-        <!-- Cabeçalho fixo -->
-        <div class="appointment-time">
-          <div class="d-flex">
-            <img
-              src="./assets/Moon-Stars--Streamline-Solar.svg"
-              class="icon"
-              alt="Ícone"
-            />
-            <span class="period">Noite</span>
+            <span class="time-range">09h-12h</span>
           </div>
-          <span class="time-range">19h-21h</span>
+
+          <!-- Lista de detalhes de agendamento -->
+          <ul class="appointment-list">
+            <li class="appointment-details d-flex">
+              <div class="d-flex">
+                <span class="exact-time">09:00</span>
+                <p class="pet">
+                  Draven / <span class="owner">Evaristo Teixeira</span>
+                </p>
+              </div>
+              <p class="description">Vacinação</p>
+              <button class="remove-btn">
+                <span>Remover agendamento</span>
+              </button>
+            </li>
+
+            <!-- Adicione mais itens conforme necessário -->
+          </ul>
         </div>
 
-        <!-- Lista de detalhes de agendamento -->
-        <ul class="appointment-list">
-          <li class="appointment-details d-flex">
+        <div class="appointment-container" id="afternoon">
+          <!-- Cabeçalho fixo -->
+          <div class="appointment-time">
             <div class="d-flex">
-              <span class="exact-time">09:00</span>
-              <p class="pet">
-                Draven / <span class="owner">Evaristo Teixeira</span>
-              </p>
+              <img
+                src="./assets/Cloud-Sun-4--Streamline-Solar.svg"
+                class="icon"
+                alt="Ícone"
+              />
+              <span class="period">Tarde</span>
             </div>
-            <p class="description">Vacinação</p>
-            <button class="remove-btn">
-              <span>Remover agendamento</span>
-            </button>
-          </li>
+            <span class="time-range">13h-18h</span>
+          </div>
 
-          <!-- Adicione mais itens conforme necessário -->
-        </ul>
+          <!-- Lista de detalhes de agendamento -->
+          <ul class="appointment-list">
+            <li class="appointment-details d-flex">
+              <div class="d-flex">
+                <span class="exact-time">09:00</span>
+                <p class="pet">
+                  Draven / <span class="owner">Evaristo Teixeira</span>
+                </p>
+              </div>
+              <p class="description">Vacinação</p>
+              <button class="remove-btn">
+                <span>Remover agendamento</span>
+              </button>
+            </li>
+
+            <li class="appointment-details d-flex">
+              <div class="d-flex">
+                <span class="exact-time">09:00</span>
+                <p class="pet">
+                  Draven / <span class="owner">Evaristo Teixeira</span>
+                </p>
+              </div>
+              <p class="description">Vacinação</p>
+              <button class="remove-btn">
+                <span>Remover agendamento</span>
+              </button>
+            </li>
+
+            <!-- Adicione mais itens conforme necessário -->
+          </ul>
+        </div>
+
+        <div class="appointment-container" id="night">
+          <!-- Cabeçalho fixo -->
+          <div class="appointment-time">
+            <div class="d-flex">
+              <img
+                src="./assets/Moon-Stars--Streamline-Solar.svg"
+                class="icon"
+                alt="Ícone"
+              />
+              <span class="period">Noite</span>
+            </div>
+            <span class="time-range">19h-21h</span>
+          </div>
+
+          <!-- Lista de detalhes de agendamento -->
+          <ul class="appointment-list">
+            <li class="appointment-details d-flex">
+              <div class="d-flex">
+                <span class="exact-time">09:00</span>
+                <p class="pet">
+                  Draven / <span class="owner">Evaristo Teixeira</span>
+                </p>
+              </div>
+              <p class="description">Vacinação</p>
+              <button class="remove-btn">
+                <span>Remover agendamento</span>
+              </button>
+            </li>
+
+            <!-- Adicione mais itens conforme necessário -->
+          </ul>
+        </div>
       </div>
-      <button type="button" class="btn btn-lg d-flex">Novo Agendamento</button>
+      <div class="button">
+        <button type="button" class="btn btn-lg" id="modal-button">
+          Novo Agendamento
+        </button>
+      </div>
     </main>
+
+    <!-- Modal -->
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h2>Agende um atendimento</h2>
+        <form id="appointment-form">
+          <div class="mb-3">
+            <label for="tutor-name" class="form-label">Nome do Tutor</label>
+            <input type="text" class="form-control" id="tutor-name" required />
+          </div>
+          <div class="mb-3">
+            <label for="pet-name" class="form-label">Nome do Pet</label>
+            <input type="text" class="form-control" id="pet-name" required />
+          </div>
+          <div class="mb-3">
+            <label for="phone" class="form-label">Telefone</label>
+            <input type="tel" class="form-control" id="phone" required />
+          </div>
+          <div class="mb-3">
+            <label for="service-desc" class="form-label"
+              >Descrição do Serviço</label
+            >
+            <textarea
+              class="form-control"
+              id="service-desc"
+              rows="3"
+              required
+            ></textarea>
+          </div>
+          <div class="mb-3 d-flex hour">
+            <div class="half-width">
+              <label for="appointment-date" class="form-label">Data</label>
+              <input
+                type="date"
+                class="form-control"
+                id="appointment-date"
+                required
+              />
+            </div>
+            <div class="half-width">
+              <label for="appointment-time" class="form-label">Hora</label>
+              <input
+                type="time"
+                class="form-control"
+                id="appointment-time"
+                required
+              />
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Agendar</button>
+        </form>
+      </div>
+    </div>
+    <script src="main.js"></script>
   </body>
 </html>

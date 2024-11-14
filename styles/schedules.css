@@ -173,6 +173,7 @@ input[type="date"] {
 
   @media (min-width: 768px) {
     margin-right: 4rem;
+    white-space: nowrap;
   }
 
   @media (min-width: 1024px) {
@@ -189,11 +190,6 @@ input[type="date"] {
     @media (min-width: 768px) {
       font-size: 22px;
       line-height: 30px;
-    }
-
-    @media (min-width: 1024px) {
-      font-size: 24px;
-      line-height: 32px;
     }
   }
 
@@ -269,6 +265,20 @@ input[type="date"] {
 
   @media (min-width: 768px) {
     font-size: 16px;
+  }
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .button {
+    display: grid;
+    justify-content: flex-end;
   }
 }
 
