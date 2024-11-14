@@ -25,7 +25,7 @@
       </div>
     </header>
 
-    <div class="container">
+    <main>
       <div class="d-flex schedules">
         <div class="title">
           <h3>Sua agenda</h3>
@@ -41,37 +41,32 @@
       <div class="appointment-container" id="morning">
         <!-- Cabeçalho fixo -->
         <div class="appointment-time">
-          <img
-            src="./assets/Sun-Fog--Streamline-Solar.svg"
-            class="icon"
-            alt="Ícone"
-          />
-          <span class="period">Manhã</span>
+          <div class="d-flex">
+            <img
+              src="./assets/Sun-Fog--Streamline-Solar.svg"
+              class="icon"
+              alt="Ícone"
+            />
+            <span class="period">Manhã</span>
+          </div>
           <span class="time-range">09h-12h</span>
         </div>
 
         <!-- Lista de detalhes de agendamento -->
         <ul class="appointment-list">
           <li class="appointment-details d-flex">
-            <span class="exact-time">09:00</span>
-            <p class="pet">
-              Draven / <span class="owner">Evaristo Teixeira</span>
-            </p>
+            <div class="d-flex">
+              <span class="exact-time">09:00</span>
+              <p class="pet">
+                Draven / <span class="owner">Evaristo Teixeira</span>
+              </p>
+            </div>
             <p class="description">Vacinação</p>
             <button class="remove-btn">
               <span>Remover agendamento</span>
             </button>
           </li>
 
-          <!-- Exemplo de outro agendamento -->
-          <li class="appointment-details d-flex">
-            <span class="exact-time">10:00</span>
-            <p class="pet">Pituca / <span class="owner">Paulo Everton</span></p>
-            <p class="description">Vacinação</p>
-            <button class="remove-btn">
-              <span>Remover agendamento</span>
-            </button>
-          </li>
           <!-- Adicione mais itens conforme necessário -->
         </ul>
       </div>
@@ -79,37 +74,45 @@
       <div class="appointment-container" id="afternoon">
         <!-- Cabeçalho fixo -->
         <div class="appointment-time">
-          <img
-            src="./assets/Cloud-Sun-4--Streamline-Solar.svg"
-            class="icon"
-            alt="Ícone"
-          />
-          <span class="period">Tarde</span>
+          <div class="d-flex">
+            <img
+              src="./assets/Cloud-Sun-4--Streamline-Solar.svg"
+              class="icon"
+              alt="Ícone"
+            />
+            <span class="period">Tarde</span>
+          </div>
           <span class="time-range">13h-18h</span>
         </div>
 
         <!-- Lista de detalhes de agendamento -->
         <ul class="appointment-list">
           <li class="appointment-details d-flex">
-            <span class="exact-time">13:00</span>
-            <p class="pet">
-              Draven / <span class="owner">Evaristo Teixeira</span>
-            </p>
+            <div class="d-flex">
+              <span class="exact-time">09:00</span>
+              <p class="pet">
+                Draven / <span class="owner">Evaristo Teixeira</span>
+              </p>
+            </div>
             <p class="description">Vacinação</p>
             <button class="remove-btn">
               <span>Remover agendamento</span>
             </button>
           </li>
 
-          <!-- Exemplo de outro agendamento -->
           <li class="appointment-details d-flex">
-            <span class="exact-time">14:00</span>
-            <p class="pet">Pituca / <span class="owner">Paulo Everton</span></p>
+            <div class="d-flex">
+              <span class="exact-time">09:00</span>
+              <p class="pet">
+                Draven / <span class="owner">Evaristo Teixeira</span>
+              </p>
+            </div>
             <p class="description">Vacinação</p>
             <button class="remove-btn">
               <span>Remover agendamento</span>
             </button>
           </li>
+
           <!-- Adicione mais itens conforme necessário -->
         </ul>
       </div>
@@ -117,40 +120,36 @@
       <div class="appointment-container" id="night">
         <!-- Cabeçalho fixo -->
         <div class="appointment-time">
-          <img
-            src="./assets/Moon-Stars--Streamline-Solar.svg"
-            class="icon"
-            alt="Ícone"
-          />
-          <span class="period">Noite</span>
+          <div class="d-flex">
+            <img
+              src="./assets/Moon-Stars--Streamline-Solar.svg"
+              class="icon"
+              alt="Ícone"
+            />
+            <span class="period">Noite</span>
+          </div>
           <span class="time-range">19h-21h</span>
         </div>
 
         <!-- Lista de detalhes de agendamento -->
         <ul class="appointment-list">
           <li class="appointment-details d-flex">
-            <span class="exact-time">19:00</span>
-            <p class="pet">
-              Draven / <span class="owner">Evaristo Teixeira</span>
-            </p>
+            <div class="d-flex">
+              <span class="exact-time">09:00</span>
+              <p class="pet">
+                Draven / <span class="owner">Evaristo Teixeira</span>
+              </p>
+            </div>
             <p class="description">Vacinação</p>
             <button class="remove-btn">
               <span>Remover agendamento</span>
             </button>
           </li>
 
-          <!-- Exemplo de outro agendamento -->
-          <li class="appointment-details d-flex">
-            <span class="exact-time">20:00</span>
-            <p class="pet">Pituca / <span class="owner">Paulo Everton</span></p>
-            <p class="description">Vacinação</p>
-            <button class="remove-btn">
-              <span>Remover agendamento</span>
-            </button>
-          </li>
           <!-- Adicione mais itens conforme necessário -->
         </ul>
       </div>
-    </div>
+      <button type="button" class="btn btn-lg d-flex">Novo Agendamento</button>
+    </main>
   </body>
 </html>
