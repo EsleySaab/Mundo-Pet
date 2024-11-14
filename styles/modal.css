@@ -39,6 +39,7 @@
   background-color: #23242c;
   border-color: #3e3c41;
   color: white;
+  padding-left: 2.5rem;
 }
 .form-control:hover {
   border: 1px solid #86818c;
@@ -79,4 +80,47 @@ input[type="time"] {
   font-size: 12px;
   padding: 0.6rem 0.5rem;
   padding-left: 2rem;
+}
+
+#appointment-date {
+  @media (min-width: 768px) {
+    padding: 0.6rem 0.5rem;
+    padding-left: 2.5rem;
+    font-size: 16px;
+  }
+}
+
+#appointment-time {
+  @media (min-width: 768px) {
+    padding: 0.6rem 3rem;
+    padding-left: 2.5rem;
+    font-size: 16px;
+    padding-right: 0.5rem;
+  }
+}
+
+#phone {
+  background-image: url(../assets/Phone--Streamline-Solar.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 0.5rem;
+}
+
+#tutor-name {
+  background-image: url(../assets/User--Streamline-Solar.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 0.5rem;
+}
+
+#pet-name {
+  background-image: url(../assets/Pet-Paw--Streamline-Core.svg);
+  background-repeat: no-repeat;
+  background-position-y: center;
+  background-position-x: 0.5rem;
+}
+
+.form-control::placeholder {
+  color: #98959d;
+  opacity: 1;
 }
