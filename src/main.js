@@ -12,6 +12,7 @@ import "./styles/schedules.css"
 // JS
 import "./modules/form/submit.js"
 import "./modules/page-load.js"
+import "./modules/form/date-change.js"
 
 document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("myModal")
