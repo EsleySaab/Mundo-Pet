@@ -9,6 +9,9 @@ import "./styles/header.css"
 import "./styles/modal.css"
 import "./styles/schedules.css"
 
+// JS
+import "./modules/form/submit.js"
+
 document.addEventListener("DOMContentLoaded", function () {
   const modal = document.getElementById("myModal")
   const button = document.getElementById("modal-button")

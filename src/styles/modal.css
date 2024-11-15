@@ -76,13 +76,13 @@ input[type="time"] {
   padding-left: 2.5rem;
 }
 
-#appointment-date {
+#date {
   font-size: 12px;
   padding: 0.6rem 0.5rem;
   padding-left: 2rem;
 }
 
-#appointment-date {
+#date {
   @media (min-width: 768px) {
     padding: 0.6rem 0.5rem;
     padding-left: 2.5rem;
@@ -95,7 +95,6 @@ input[type="time"] {
     padding: 0.6rem 3rem;
     padding-left: 2.5rem;
     font-size: 16px;
-    padding-right: 0.5rem;
   }
 }
 
