@@ -196,30 +196,36 @@
           <div class="mb-3 d-flex hour">
             <div class="half-width">
               <label for="appointment-date" class="form-label">Data</label>
-              <input
-                type="date"
-                class="form-control"
-                id="date-2"
-                required
-              />
+              <input type="date" class="form-control" id="date-2" required />
             </div>
             <div class="half-width">
               <label for="appointment-time" class="form-label">Hora</label>
               <select class="form-control" id="appointment-time" required>
                 <option value="" disabled selected>Horário:</option>
-                <option value="9">9:00</option>
-                <option value="10">10:00</option>
-                <option value="11">11:00</option>
-                <option value="12">12:00</option>
-                <option value="13">13:00</option>
-                <option value="14">14:00</option>
-                <option value="15">15:00</option>
-                <option value="16">16:00</option>
-                <option value="17">17:00</option>
-                <option value="18">18:00</option>
-                <option value="19">19:00</option>
-                <option value="20">20:00</option>
-                <option value="21">21:00</option>
+                <!-- Manhã -->
+                <optgroup label="Manhã">
+                  <option value="9:00">9:00</option>
+                  <option value="10:00">10:00</option>
+                  <option value="11:00">11:00</option>
+                  <option value="12:00">12:00</option>
+                </optgroup>
+
+                <!-- Tarde -->
+                <optgroup label="Tarde">
+                  <option value="13:00">13:00</option>
+                  <option value="14:00">14:00</option>
+                  <option value="15:00">15:00</option>
+                  <option value="16:00">16:00</option>
+                  <option value="17:00">17:00</option>
+                  <option value="18:00">18:00</option>
+                </optgroup>
+
+                <!-- Noite -->
+                <optgroup label="Noite">
+                  <option value="19:00">19:00</option>
+                  <option value="20:00">20:00</option>
+                  <option value="21:00">21:00</option>
+                </optgroup>
               </select>
             </div>
           </div>
