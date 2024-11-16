@@ -115,15 +115,12 @@ input[type="date"] {
 }
 
 .remove-btn {
-  display: flex;
-  flex: 1;
   background: none;
-  border: none;
+  border: #666666;
   cursor: pointer;
-  padding: 0;
-  justify-content: flex-end;
   font-size: 12px;
   color: #666666;
+  margin-left: auto;
 }
 
 .remove-btn:hover {
@@ -318,3 +315,5 @@ input[type="date"] {
     margin-left: 10rem;
   }
 }
+
+

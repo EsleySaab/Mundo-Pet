@@ -1,20 +1,3 @@
 {
-  "schedules": [
-    {
-      "id": 1731775794555,
-      "name": "awawawaw",
-      "pet": "awawawa",
-      "phone": "awawaw",
-      "service": "awawawawaw",
-      "when": "2024-11-16T22:00:00.000Z"
-    },
-    {
-      "id": 1731776789148,
-      "name": "Erley Santana",
-      "pet": "Draven",
-      "phone": "2121212121",
-      "service": "Vacinação",
-      "when": "2024-11-16T19:00:00.000Z"
-    }
-  ]
+  "schedules": []
 }

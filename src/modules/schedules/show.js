@@ -18,6 +18,8 @@ export function schedulesShow({ dailySchedules }) {
       const item = document.createElement("li")
       item.classList.add("appointment-details", "d-flex")
 
+      item.setAttribute("data-id", schedule.id)
+
       // Cria o contêiner interno
       const container = document.createElement("div")
       container.classList.add("d-flex")
@@ -44,7 +46,7 @@ export function schedulesShow({ dailySchedules }) {
       // Cria o botão de remover
       const cancelButton = document.createElement("button")
       cancelButton.classList.add("remove-btn")
-      cancelButton.innerHTML = `<span>Remover agendamento</span>`
+      cancelButton.innerHTML = `Remover agendamento`
 
       // Adiciona todos os elementos ao item principal
       item.append(container, service, cancelButton)
