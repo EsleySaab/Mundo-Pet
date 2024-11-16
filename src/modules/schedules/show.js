@@ -39,7 +39,7 @@ export function schedulesShow({ dailySchedules }) {
       // Cria a descrição do agendamento
       const service = document.createElement("p")
       service.classList.add("description")
-      service.textContent = `${schedule.service}`
+      service.textContent = `${schedule.service || "Sem descrição"}`
 
       // Cria o botão de remover
       const cancelButton = document.createElement("button")
