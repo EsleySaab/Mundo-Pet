@@ -2,6 +2,7 @@ import { apiConfig } from "./api-config.js"
 
 export async function scheduleNew({ id, name, pet, phone, service, when }) {
   try {
+    // Faz a requisição para enviar os dados do agendamento.
     await fetch(`${apiConfig.baseURL}/schedules`, {
       method: "POST",
       headers: {
@@ -10,6 +11,7 @@ export async function scheduleNew({ id, name, pet, phone, service, when }) {
       body: JSON.stringify({ id, name, pet, phone, service, when }),
     })
 
+    // Exibe uma mensagem de agendamento realizado.
     alert("Agendamento realizado com sucesso!")
   } catch (error) {
     console.log(error)
