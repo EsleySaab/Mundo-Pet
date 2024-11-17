@@ -275,7 +275,8 @@ input[type="date"] {
 @media (min-width: 768px) {
   .button {
     display: grid;
-    justify-content: flex-end;
+    width: 77.5%;
+    justify-content: right;
   }
 }
 
@@ -315,5 +316,3 @@ input[type="date"] {
     margin-left: 10rem;
   }
 }
-
-

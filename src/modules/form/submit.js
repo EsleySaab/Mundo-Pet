@@ -20,6 +20,27 @@ selectedDate.value = inputToday
 selectedDate.min = inputToday
 selectedDate2.min = inputToday
 
+clientPhone.addEventListener("input", (event) => {
+  let input = clientPhone.value
+
+  // Remove todos os caracteres não numéricos
+  input = input.replace(/\D/g, "")
+
+  // Aplica a máscara (00) 0 0000-0000
+  if (input.length > 0) {
+    input = input.replace(/^(\d{2})(\d)/, "($1) $2") // Adiciona parênteses e o espaço após DDD
+  }
+  if (input.length > 6) {
+    input = input.replace(/(\d{5})(\d)/, "$1-$2") // Adiciona o hífen após o quinto número
+  }
+
+  // Limita o tamanho do número formatado
+  input = input.substring(0, 15)
+
+  // Atualiza o valor do campo com a máscara aplicada
+  clientPhone.value = input
+})
+
 form.onsubmit = async (event) => {
   // Previne o comportamento padrão de carregar a página.
   event.preventDefault()
